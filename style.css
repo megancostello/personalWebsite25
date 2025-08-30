@@ -1,0 +1,82 @@
+.nameHeader {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: #111111;
+  }
+
+  /* Create three equal columns that float next to each other */
+.column {
+    padding: .25%;
+    float: left;
+    width: 32%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+#customize-list{
+    float:left;
+    margin-left:20px;
+    list-style:none;
+}
+#gr_updates_widget{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color:#fff;
+    border:solid #683205 5px;
+    -webkit-box-shadow: 0px 0px 4px 1px #595959,
+    inset 0px 0px 0px 1px #7D730B;
+    -moz-box-shadow: 0px 0px 4px 1px #595959,
+    inset 0px 0px 0px 1px #7D730B;
+    box-shadow: 0px 0px 4px 1px #595959,
+    inset 0px 0px 0px 1px #7D730B;
+    padding:15px 0 0px 15px;
+    width:250px;
+    height:265px;
+}
+#gr_footer{
+    margin-bottom:0px;
+    height:30px;
+}
+#gr_updates_widget p{
+    padding:0px;
+    margin:0;
+    font-size:14px;
+}
+#gr_footer img{
+    width:100px;
+    float:left;
+}
